@@ -371,7 +371,7 @@ public class FileDataWorks {
         int position, quant, summ = 0;
         System.out.println("Ваш список заказов:");
         int counter = stack.getDephth() + 1;
-
+        readFromExcel("list.xls", "list");
        for(int i = 0; i < counter; i++)
        {
            position = stack.popPosition();
@@ -379,7 +379,7 @@ public class FileDataWorks {
            System.out.println("Название: " + name[position]);
            System.out.println("Кол-во: " + quant + "\n");
            summ += price[position]*quant;
-           addToFile(ID[position], name[position], price[position], quant, "list", "list.xls");
+           addToFile(++intCounterList, name[position], price[position], quant, "list", "list.xls");
        }
 
         System.out.println("Сумма заказа: " + summ + "\n");

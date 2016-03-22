@@ -31,11 +31,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Store.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+              <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#showTable#0;class#Store#0" expanded="false" />
                 <element signature="method#Show#0;class#Store#0" expanded="false" />
+                <element signature="method#Sell#0;class#Store#0" expanded="false" />
                 <element signature="method#Supply#0;class#Store#0" expanded="false" />
                 <element signature="method#List#0;class#Store#0" expanded="false" />
               </folding>
@@ -46,17 +47,18 @@
       <file leaf-file-name="FileDataWorks.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FileDataWorks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55473375">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.7337278">
+              <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
               <folding>
+                <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
                 <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
                 <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
                 <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+                <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
                 <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
                 <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
                 <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-                <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-                <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+                <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,8 +68,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Add.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="method#Add#0;class#Add#0" expanded="false" />
+                <element signature="method#Add#1;class#Add#0" expanded="false" />
+                <element signature="method#Set#0;class#Add#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/STACK.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="method#STACK#0;class#STACK#0" expanded="false" />
                 <element signature="method#createStack#0;class#STACK#0" expanded="false" />
@@ -93,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/labFirst.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -125,9 +131,9 @@
         <option value="$PROJECT_DIR$/src/main/java/DataWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/labFirst.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Add.java" />
         <option value="$PROJECT_DIR$/src/main/java/STACK.java" />
         <option value="$PROJECT_DIR$/src/main/java/Store.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Add.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileDataWorks.java" />
       </list>
     </option>
@@ -178,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -253,8 +261,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,25 +728,27 @@
       <workItem from="1458517957694" duration="416000" />
       <workItem from="1458519895486" duration="233000" />
       <workItem from="1458569867804" duration="20273000" />
+      <workItem from="1458593647643" duration="68000" />
+      <workItem from="1458593782613" duration="110000" />
+      <workItem from="1458681838085" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55886000" />
+    <option name="totallyTimeSpent" value="56658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32386363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3224432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5042614" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19789983" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
@@ -754,6 +762,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -780,6 +789,186 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="method#Add#0;class#Add#0" expanded="false" />
+            <element signature="method#Add#1;class#Add#0" expanded="false" />
+            <element signature="method#Set#0;class#Add#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/STACK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="method#STACK#0;class#STACK#0" expanded="false" />
+            <element signature="method#createStack#0;class#STACK#0" expanded="false" />
+            <element signature="method#clone#0;class#STACK#0" expanded="false" />
+            <element signature="method#setHead#0;class#STACK#0" expanded="false" />
+            <element signature="method#popPosition#0;class#STACK#0" expanded="false" />
+            <element signature="method#popQuantity#0;class#STACK#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/labFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showTable#0;class#Store#0" expanded="false" />
+            <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
+            <element signature="method#Supply#0;class#Store#0" expanded="false" />
+            <element signature="method#List#0;class#Store#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileDataWorks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="387" column="1" selection-start-line="387" selection-start-column="1" selection-end-line="387" selection-end-column="1" />
+          <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="method#Add#0;class#Add#0" expanded="false" />
+            <element signature="method#Add#1;class#Add#0" expanded="false" />
+            <element signature="method#Set#0;class#Add#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/STACK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="method#STACK#0;class#STACK#0" expanded="false" />
+            <element signature="method#createStack#0;class#STACK#0" expanded="false" />
+            <element signature="method#clone#0;class#STACK#0" expanded="false" />
+            <element signature="method#setHead#0;class#STACK#0" expanded="false" />
+            <element signature="method#popPosition#0;class#STACK#0" expanded="false" />
+            <element signature="method#popQuantity#0;class#STACK#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/labFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showTable#0;class#Store#0" expanded="false" />
+            <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
+            <element signature="method#Supply#0;class#Store#0" expanded="false" />
+            <element signature="method#List#0;class#Store#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileDataWorks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="method#Add#0;class#Add#0" expanded="false" />
+            <element signature="method#Add#1;class#Add#0" expanded="false" />
+            <element signature="method#Set#0;class#Add#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/STACK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="method#STACK#0;class#STACK#0" expanded="false" />
+            <element signature="method#createStack#0;class#STACK#0" expanded="false" />
+            <element signature="method#clone#0;class#STACK#0" expanded="false" />
+            <element signature="method#setHead#0;class#STACK#0" expanded="false" />
+            <element signature="method#popPosition#0;class#STACK#0" expanded="false" />
+            <element signature="method#popQuantity#0;class#STACK#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/labFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Store.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -788,6 +977,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -799,14 +989,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -845,6 +1036,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -856,14 +1048,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -902,6 +1095,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -913,14 +1107,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -959,6 +1154,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -970,14 +1166,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="166" column="27" selection-start-line="166" selection-start-column="27" selection-end-line="166" selection-end-column="27" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1001,6 +1198,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -1012,14 +1210,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1043,6 +1242,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -1054,14 +1254,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1085,6 +1286,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -1096,14 +1298,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1134,6 +1337,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#showTable#0;class#Store#0" expanded="false" />
             <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
             <element signature="method#Supply#0;class#Store#0" expanded="false" />
             <element signature="method#List#0;class#Store#0" expanded="false" />
           </folding>
@@ -1176,18 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41747573">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/labFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5281065">
           <caret line="863" column="0" selection-start-line="863" selection-start-column="0" selection-end-line="863" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,22 +1394,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Add.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Store.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showTable#0;class#Store#0" expanded="false" />
+            <element signature="method#Show#0;class#Store#0" expanded="false" />
+            <element signature="method#Sell#0;class#Store#0" expanded="false" />
+            <element signature="method#Supply#0;class#Store#0" expanded="false" />
+            <element signature="method#List#0;class#Store#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/STACK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="method#STACK#0;class#STACK#0" expanded="false" />
             <element signature="method#createStack#0;class#STACK#0" expanded="false" />
@@ -1230,33 +1427,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Store.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/labFirst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="method#showTable#0;class#Store#0" expanded="false" />
-            <element signature="method#Show#0;class#Store#0" expanded="false" />
-            <element signature="method#Supply#0;class#Store#0" expanded="false" />
-            <element signature="method#List#0;class#Store#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="method#Add#0;class#Add#0" expanded="false" />
+            <element signature="method#Add#1;class#Add#0" expanded="false" />
+            <element signature="method#Set#0;class#Add#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FileDataWorks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55473375">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.7337278">
+          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
           <folding>
+            <element signature="method#writeIntoExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#readFromExcel#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#showData#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#searchID#0;class#FileDataWorks#0" expanded="false" />
+            <element signature="method#searchName#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#addToFile#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#check#0;class#FileDataWorks#0" expanded="false" />
             <element signature="method#listOfRequest#0;class#FileDataWorks#0" expanded="false" />
-            <element signature="method#makeRequest#0;class#FileDataWorks#0" expanded="false" />
-            <marker date="1458592475000" expanded="false" signature="13841:13963" placeholder="{...}" />
+            <marker date="1458682455000" expanded="false" signature="13841:13963" placeholder="{...}" />
           </folding>
         </state>
       </provider>
